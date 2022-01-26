@@ -1,12 +1,12 @@
 {
-  "name": "Uzurion-Launcher",
+  "name": "Fluorite-Launcher",
   "version": "2.0.5",
-  "productName": "Uzurion Launcher",
-  "description": "Uzurion Launcher",
+  "productName": "Fluorite Launcher",
+  "description": "Fluorite Launcher",
   "main": "app/index.html",
   "author": "Luuxis",
   "window": {
-    "title": "Uzurion update",
+    "title": "Fluorite update",
     "width": 400,
     "height": 500,
     "frame": false,
@@ -33,7 +33,7 @@
   },
   "license": "CC0",
   "build": {
-    "appId": "Uzurion Launcher",
+    "appId": "Fluorite Launcher",
     "nwVersion": "0.60.0",
     "packed": true,
     "targets": [
@@ -56,16 +56,16 @@
     ],
     "outputPattern": "${NAME}-${PLATFORM}",
     "win": {
-      "productName": "Uzurion Launcher",
-      "companyName": "Uzurion Launcher",
+      "productName": "Fluorite Launcher",
+      "companyName": "Fluorite Launcher",
       "copyright": "copyright",
       "icon": "./app/assets/images/icons/icon.ico"
     },
     "mac": {
-      "displayName": "Uzurion-Launcher",
+      "displayName": "Fluorite-Launcher",
       "copyright": "copyright",
       "plistStrings": {
-        "CFBundleIdentifier": "Uzurion-Launcher"
+        "CFBundleIdentifier": "Fluorite-Launcher"
       }
     },
     "nsis": {
